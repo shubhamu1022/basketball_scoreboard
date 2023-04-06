@@ -1,0 +1,132 @@
+body{
+    background-color: #111827;
+}
+
+#home_one, #home_two, #home_three, #guest_one, #guest_two, #guest_three{
+    display: inline;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-top: -80px;
+    margin-right: 10px;
+    border: 2px solid #849ad4;
+    border-radius: 5px;
+    width: 40px;
+    height: 25.77px;
+    left: 89px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #2f4c9d;
+    z-index: -1;
+
+}
+
+#home_reset, #guest_reset{
+    display: inline;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 40px;
+    border: 2px solid #849ad4;
+    border-radius: 5px;
+    width: 70px;
+    height: 25.77px;
+    left: 89px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    text-align: center;
+    color: #2f4c9d;
+
+}
+.container-1{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.home-score, .guest-score{
+    margin-top: -50px;
+    margin-bottom: -20px;
+}
+
+#home-score{
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+
+}
+#guest-score{
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+
+}
+#guest{    
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+#home{
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+
+}
